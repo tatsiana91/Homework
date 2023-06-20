@@ -16,17 +16,17 @@
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
-System.Console.WriteLine("Введите целое число M ");
-int num1 = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine("Введите целое число N ");
-int num2 = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine("Введите целое число M ");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine("Введите целое число N ");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// int Summa(int num1, int num2)
+// {
+//     if (num1 == num2) return (num2);
+//     else return num1 + Summa(num1 + 1, num2);
+// }
+// Console.Write($"Сумма натуральных элементов в промежутке от M до N равно {Summa(num1, num2)}");
 
-
-string Summa(int num1,int num2)
-{
-    {
-    if (num1 <= num2) return ($"{num2}, ");
-else return num1 + Summa(num1 + 1, num2);
-}
-}
-Console.Write($"Сумма натуральных элементов в промежутке от M до N равно {Summa(num1,num2)}");
+// Задача 68: Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
+// m = 2, n = 3 -> A(m,n) = 9
+// m = 3, n = 2 -> A(m,n) = 29
